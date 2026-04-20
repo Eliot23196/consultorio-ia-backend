@@ -20,7 +20,7 @@ GEMINI_KEY = "AIzaSyCcHUSRAjYWq2dmvtx9XxZl1ngIxCGEkUE"
 genai.configure(api_key=GEMINI_KEY)
 
 # Usamos el modelo Flash que es el más rápido y confiable
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-pro')
 
 class Consulta(BaseModel):
     texto: str
